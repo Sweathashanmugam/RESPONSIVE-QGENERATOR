@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Nunito', sans-serif;
+  animation: myanimation 10s infinite;
+}
+
+@keyframes myanimation {
+  0% {background-color: #16a085;}    
+   25%{background-color:#2c3e50;}
+  50%{background-color:#f39c12;}
+  75%{background-color:#e74c3c;}
+  100% {background-color: #9b59b6;}
+}
+#quote-box {
+  background: #fff;
+  width: 40rem;
+  margin: 10rem auto;
+  padding: 3rem;
+  border-radius: 5px;
+}
+
+#text {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+#author {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.2rem;
+}
+
+#buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.social-media {
+  display: flex;
+}
+
+.social-media > a {
+  margin-right: .5rem;
+  animation: myanimation 10s infinite;
+  padding: .3rem .5rem;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.social-media > a:hover {
+  opacity: .9;
+}
+
+.social-media > a img {
+  width: 1.5rem;
+}
+h4{
+  color: white;
+  text-shadow : 2px 4px 4px rgba(228, 231, 237, 0.6);
+  text-align: center;
+  
+}
+
+#new-quote {
+  animation: myanimation 10s infinite;
+  border: none;
+  color: #fff;
+  padding: .7rem 1rem;
+  font-size: .9rem;
+  font-weight: bold;
+  border-radius: 2px;
+  outline: none;
+  cursor: pointer;
+}
+
+#new-quote:hover {
+  opacity: 0.9;
+}
